@@ -66,6 +66,41 @@ public class WelcomeScreen {
 		// tap on Confirm
 		screen.tapOnScreen(786, 930);
 		screen.waitToDo(90);
+		
+		/* Location of participants
+		 * Rank 1 (980,130)
+		 * Rank 2 (790,340) - Rank 3 (1150,340)
+		 * Rank 4 (600,550) - Rank 5 (960,550) - Rank 6 (1320,550)
+		 * Rank 7 (410,760) - Rank 8 (770,760) - Rank 9 (1130,760) - Rank 10 (1490,760)
+		 * Rank 11 (410,970) - Rank 12 (770,970) - Rank 13 (1130,970) - Rank 14 (1490,970) - Rank 15 (1490,970)
+		 * 
+		 * Location of MAP - HOME button
+		 * Map (120,960)
+		 * 
+		 * Location of ARENA button
+		 * Arena (860,900)
+		 * 
+		 * Location of FOR FOOD button
+		 * ForFood (450,290)
+		 * 
+		 * Location of FOR TICKETS button
+		 * ForTicket (800,290)
+		 * 
+		 * Location of PARTICIPATE button
+		 * Participate (620,930)
+		 * 
+		 * Location of CONFIRM ARENA button
+		 * ConfirmArena (790,930)
+		 * 
+		 * Location of TO BATTLE button 
+		 * ToBattle (1400,910)
+		 * 
+		 * Location of SPEED X2 button 
+		 * Speed (1780,970)
+		 * 
+		 * Location of VICTORY HOME button 
+		 * VitoryHome (960,990)
+		 */
 
 		// tap on Round 1
 		screen.tapOnScreen(1700, 980);
@@ -141,10 +176,10 @@ public class WelcomeScreen {
 		// tap on Victory Home
 		screen.tapOnScreen(964, 998);
 		screen.waitToDo(60);
-		
+
 		// tap on HOME - CLAIM reward
-				screen.tapOnScreen(1750, 200);
-				screen.waitToDo(60);
+		screen.tapOnScreen(1750, 200);
+		screen.waitToDo(60);
 	}
 
 	class Screen {

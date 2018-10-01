@@ -1,5 +1,7 @@
 package Demo;
 
+import io.appium.java_client.touch.offset.PointOption;
+
 public class ElementDeclaration {
 	// Device Info
 	public static String deviceName = "Nexus 5";
