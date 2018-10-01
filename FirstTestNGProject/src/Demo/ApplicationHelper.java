@@ -201,7 +201,6 @@ public class ApplicationHelper {
 		TouchAction action = new TouchAction(driver);
 		action.press(PointOption.point(x, startY)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
 				.moveTo(PointOption.point(x, endY)).release().perform();
-
 	}
 
 	public static void scrollUp() throws Exception {
@@ -211,6 +210,5 @@ public class ApplicationHelper {
 		TouchAction action = new TouchAction(driver);
 		action.press(PointOption.point(x, startY)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
 				.moveTo(PointOption.point(x, endY)).release().perform();
-
 	}
 }
