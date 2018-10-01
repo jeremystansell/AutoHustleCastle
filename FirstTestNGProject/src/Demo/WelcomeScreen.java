@@ -58,6 +58,7 @@ public class WelcomeScreen {
 
 		// claim Reward
 		screen.tapOnClaimReward();
+		//a
 	}
 
 	class Screen {
